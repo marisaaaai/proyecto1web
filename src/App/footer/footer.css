@@ -1,0 +1,130 @@
+
+  .containerFoot {
+    /* position: relative; */
+    margin-top: 20px;
+    /* display: flex; */
+    bottom: 0; 
+    height: 140px;
+    width: 100%;
+}
+
+  .background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+  
+  .text-footer {
+      text-align: center;
+      padding: 30px 0;
+      font-family: 'Ubuntu', sans-serif;
+      display: flex;
+      justify-content: center;
+      color: #fff;
+  }
+  
+  ul{
+    display: block;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .botbarbaj{
+    width:100%;
+    height: 40%;
+    /* position: absolute; */
+    flex-direction: row;
+    justify-content: center;
+    /* top: 55px; */
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 80%;
+    line-height: 1.8;
+    /* position:relative; */
+    font-family: custom-font, Arial, Helvetica, sans-serif;
+    left: 10px;
+  }
+  
+  .topbarbaj{
+    width:100%;
+    height: 40%;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* top: 20px; */
+    /* margin-top: 40px; */
+    left: 10px;
+    /* position: absolute; */
+    align-items: center;
+  }
+  
+  .nav-listicons {
+    /* padding-top: 5px; */
+      /* margin-top: 20px; */
+      width: 100%;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      justify-content: center;
+      left: 10px;
+  }
+  
+  .nav-listicons li {
+      list-style: none;
+      padding: 20px 15px;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  .nav-listicons li a {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .nav-listicons li a:hover {
+      color: rgb(133, 27, 27);
+  
+  }
+  .nav-list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+    color: #fff;
+	justify-content: center;
+    left: 10px;
+}
+
+.nav-list li {
+	list-style: none;
+	padding: 20px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-list li a:hover {
+	color: rgb(52, 51, 51);
+}
+
+.support{
+  z-index: 999;
+  position: sticky;
+  width: auto;
+  height: auto;
+}

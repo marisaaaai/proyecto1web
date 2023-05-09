@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+  
+}
+
+table{
+  width: 100%; 
+}
+
+.button {
+  background-color: transparent; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.background {
+	background: black;
+	background-blend-mode: darken;
+	background-size: cover;
+}
+
+
+.page {
+  margin-top: 12px;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+	color: black;
+  width: 100%;
+	/* margin: auto; */
+	height: 80%;
+}
+
+
+
+.center {
+	text-align: center;
+}
+
+
+
+/* /*  */
