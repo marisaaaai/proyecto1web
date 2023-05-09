@@ -17,6 +17,9 @@ El proyecto consiste en la implementación del lenguaje de React y JavaScript pa
 
 Página web elegida a replicar: https://shopuk.thekillersmusic.com/*/Merch/Desert-Sun-Sand-Hoodie/7MG01TSL000
 
+Pagina web resultado: https://proyecto1web-ac595.web.app
+
+
 Para la implementación también se añade la herramienta de Webpack y Babel para la compatibilidad con diferentes versiones de navegadores, en específico: 
 * "chrome": "80",
 * "ie": "11"
@@ -35,8 +38,8 @@ Y para una creación de bundles de archivos para una eficiente almacenamiento. E
 <ol>
   <li> Clonar el repositorio </li>
   <li> Dirigirse al directorio del repo </li>
-  <li> Instalar las dependencias necesarias con <p> 'npm install' </p></li>
-  <li> Correer <p> 'npm run start' </p></li>
+  <li> Instalar las dependencias necesarias con <p> npm install </p></li>
+  <li> Correer <p> npm run start </p></li>
  </ol>
  
  ## Contact
