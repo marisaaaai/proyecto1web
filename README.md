@@ -3,7 +3,6 @@
 
 <details>
   <summary>Table of Contents</summary>
-  <ol>
     <li>
       <a href="#about-the-project">Acerca del proyecto</a>
       <ul>
@@ -15,7 +14,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    </ol>
 </details>
 ## Acerca del proyecto
 El proyecto consiste en la implementación del lenguaje de React y JavaScript para poder replicar una página web ya existente.
