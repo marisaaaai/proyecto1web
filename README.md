@@ -7,6 +7,7 @@
       <a href="#acerca-del-proyecto">Acerca del proyecto</a></li>
         <li><a href="#herramientas-utilizadas">Herramientas Utilizadas</a></li>
         <li><a href="#instalacion">Installation</a></li>
+  <li><a href="#estructura">Estructura del Proyecto</a></li>
   <li><a href="#contact">Contacto</a></li>
 
 </details>
@@ -41,6 +42,35 @@ Y para una creación de bundles de archivos para una eficiente almacenamiento. E
   <li> Instalar las dependencias necesarias con <p> npm install </p></li>
   <li> Correer <p> npm run start </p></li>
  </ol>
+ 
+ ## Estructura
+ En la estructura del proyecto nos encontramos al inicio con las configuraciones del package.json y las de web pack y babel. Seguidas con las carpetas siguientes:
+ 
+ <ul>
+  <li><b>dist-wp</b> : en donde encontramos el output de correr webpack y lo que se sube al servidor dde firebase para tener un hosting de nuestra pagina. Con el bundle de los archivos css, json y html.</li>
+  <li> <b>src</b> : en donde encontramos el codigo fuente y los componentes de nuestro proyecto. </li>
+    <ul>
+      <li> index.js donde renderizamos la applicacion </li>
+      <li> index.html </li>
+      <li> backgroung.jpg la cual sera la imagen que utilizaremos como fondo en nuestra pagina web</li>
+      <li> app en donde se encuentran los componentes  </li>
+        <ul>
+          <li> app.js en donde se llaman los componentes de footer y contenido de la pagina web </li>
+          <li> app.css en donde estilizamos una parte de la pagina web que se codifica desde el app.js </li>
+          <li> footer </li>
+          <ul> 
+            <li> footer.js en donde se codifica el elemento del footer</li>
+            <li> footer.css en donde se estiliza el elemento del footer </li>
+          </ul>
+          <li> contenido </li>
+          <ul>
+            <li> contenido.js </li>
+            <li> contenido.css </li>
+          </ul>
+        </ul>
+  </ul>
+ </ul>
+  
  
  ## Contact
 
